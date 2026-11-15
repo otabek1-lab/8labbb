@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirzayev Otabek | Personal Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="sticky-header">
+        <div class="container header-content">
+            <div class="profile-brand">
+                <img src="photo.jpg" alt="Mirzayev Otabek" class="avatar">
+                <div>
+                    <h1>Mirzayev Otabek</h1>
+                    <p class="subtitle">1st-Year IT Student • Inha University in Tashkent</p>
+                </div>
+            </div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#courses">My Courses</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#network">Network Detective</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="header-controls">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Light/Dark Mode">🌓</button>
+                <button id="menuToggle" class="icon-btn mobile-only" aria-label="Toggle Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="card glass">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am <strong>Mirzayev Otabek</strong>, a 17-year-old student born on November 29, 2008. 
+                I am currently pursuing my bachelor's degree as a first-year student in the 
+                <strong>School of Computer and Information Engineering (SOCIE)</strong> at 
+                <strong>Inha University in Tashkent (IUT)</strong>.
+            </p>
+        </section>
+
+        <section id="courses" class="card glass">
+            <h2>My Courses (SOCIE)</h2>
+            <p class="section-desc">
+                The School of Computer and Information Engineering at Inha University in Tashkent prepares students for global IT careers with a curriculum focused on software engineering, algorithms, and computer systems.
+            </p>
+            <div class="grid">
+                <div class="sub-card">
+                    <h3>Introduction to IT</h3>
+                    <p>Fundamentals of computer architecture, networking protocols (DNS, ARP, ICMP), operating systems, and web technologies.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Object-Oriented Programming (C++)</h3>
+                    <p>Core programming concepts, data structures, memory management, templates, and problem-solving in C++.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Calculus & Linear Algebra</h3>
+                    <p>Mathematical foundations required for computer science, algorithm analysis, and graphics engineering.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Physics I</h3>
+                    <p>Classical mechanics, kinematics, collisions, rotational dynamics, and scientific problem-solving.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies" class="card glass">
+            <h2>Hobbies & Gaming</h2>
+            <p>When I am not coding or studying, I enjoy playing competitive and multiplayer online games:</p>
+            <div class="grid">
+                <div class="sub-card">
+                    <h3>Counter-Strike 2</h3>
+                    <p>Tactical team-based FPS focusing on precision, strategy, and map control.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Dead by Daylight</h3>
+                    <p>Asymmetric multiplayer survival horror requiring quick decision-making and teamwork.</p>
+                </div>
+                <div class="sub-card">
+                    <h3>Minecraft</h3>
+                    <p>Sandbox building, survival exploration, and multiplayer adventures.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="network" class="card glass">
+            <h2>Network Detective</h2>
+            <div class="terminal">
+                <p><span class="prompt">$</span> ISP: <strong>Uzbektelecom (AS28910)</strong></p>
+                <p><span class="prompt">$</span> Router Manufacturer: <strong>TP-Link Technologies</strong></p>
+                <p><span class="prompt">$</span> Route to inha.uz: <strong>7 hops away</strong></p>
+            </div>
+        </section>
+
+        <section id="contact" class="card glass">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me directly:</p>
+            <p class="contact-phone">📞 <a href="tel:+998909529279">+998 90 952 92 79</a></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
